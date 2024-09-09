@@ -375,14 +375,14 @@ body {
   # About
   --------------------------------------------------------------*/
   .about-me .content h3 {
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 2px;
     color: #00b894;
   }
   
   .about-me .content ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
   }
   
   .about-me .content ul li {
