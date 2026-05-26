@@ -1166,7 +1166,7 @@ li + li {
   }
 
   .site-nav {
-    position: relative;
+    position: static;
     height: 70px;
     padding: 0;
   }
@@ -1176,11 +1176,11 @@ li + li {
   }
 
   .nav-links {
-    position: fixed;
+    position: absolute;
     top: 70px;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100vh - 70px);
     background: var(--surface);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
